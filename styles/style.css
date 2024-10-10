@@ -85,7 +85,7 @@ a {
     font-size: 75px;
     font-weight: 700;
     color: #181818;
-    margin-top: 5px ;
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
@@ -117,15 +117,11 @@ main {
 
 .about {
     padding: 130px 150px;
-    margin: 100px 0; 
+    margin: 100px 0;
     border-radius: 10px;
     text-align: center;
 }
 
-.about-element {
-    background-color:#FFFFFF;
-    padding: 0 10px
-}
 
 .section-title {
     font-size: 35px;
@@ -163,3 +159,157 @@ main {
     font-weight: 700;
     margin-top: 5px;
 }
+
+
+
+/* About section ends here */
+
+
+
+
+/* What section starts here */
+
+.what {
+    margin-bottom: 100px;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+
+.skill-item {
+    padding: 30px;
+    border-radius: 5px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+}
+
+.skill-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.skill-des {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+/* What section ends here */
+
+
+
+
+/* resume section starts here */
+
+.resume {
+    margin-bottom: 100px;
+}
+
+.resume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.education-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+}
+
+.eduction-subtitle {
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.education-subdes {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.education-des {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 20px;
+}
+
+/* resume section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================>  Main ends here */
+
+
+
+
+
+/* footer starts here */
+
+.footer {
+    padding: 100px 200px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type='text'], footer input[type='email'] {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 20px 30px;
+    width: 100%;
+    border: none;
+    color: #757575;
+    display: block;
+    margin-bottom: 25px;
+}
+
+footer textarea {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* footer ends here */
